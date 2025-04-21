@@ -13,6 +13,7 @@ public class user {
         System.out.println("Is Active: " + isActive);
         System.out.println("I: " + i);
         System.out.println("J: " + j);
+
     }
 
 }
