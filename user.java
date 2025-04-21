@@ -4,4 +4,5 @@ public class user {
     boolean = false;
     int j=20;
     String name = "Amir"
+    int id = 101;
 }
