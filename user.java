@@ -1,11 +1,14 @@
 public class user {
 
     int i = 10;
-    boolean isActive = false;
+
+    boolean isActive = true;
+
     int j = 20;
     String name = "Amir";
     int id = 101;
 
+    // Updated upstream
     // JIRA - 102
     public void display() {
         System.out.println("Name: " + name);
@@ -16,4 +19,9 @@ public class user {
 
     }
 
+    // JIRA - 101
+    public void add() {
+        System.out.println("Add method called");
+    }
+    // Stashed changes
 }
